@@ -20,9 +20,15 @@ jobs:
             - name: Updating README.md
               run: python script.py
 
-            - name: Update resources
+            - name: Update README.md
               uses: test-room-7/action-update-file@v1
               with:
                   file-path: README.md
                   commit-msg: Update README.md
+                  github-token: ${{ secrets.GITHUB_TOKEN }}
+            - name: Save pickle file
+              uses: test-room-7/action-update-file@v1
+              with:
+                  file-path: weather.pkl
+                  commit-msg: Update weather.pkl
                   github-token: ${{ secrets.GITHUB_TOKEN }}
