@@ -1,7 +1,5 @@
 ![Status](https://github.com/icaoberg/python-get-forecast/actions/workflows/build.yml/badge.svg)
 ![Status](https://github.com/icaoberg/python-get-forecast/actions/workflows/pretty.yml/badge.svg)
-![License](https://img.shields.io/github/license/icaoberg/python-get-forecast)
-
 # Pittsburgh Nightly Forecast
 
 |    | Start Date                | End Date                  | Forecast                                                    |
@@ -10,5 +8,3 @@
 
 ---
 Copyright © 2022 Pittsburgh Supercomputing Center. All Rights Reserved.
-
-The [Biomedical Applications Group](https://www.psc.edu/biomedical-applications/) at the [Pittsburgh Supercomputing Center](http://www.psc.edu) in the [Mellon College of Science](https://www.cmu.edu/mcs/) at [Carnegie Mellon University](http://www.cmu.edu).
