@@ -1,4 +1,4 @@
-name: Build it!
+name: Data build
 on:
   push:
   pull_request:
