@@ -1,4 +1,4 @@
-![Status](https://github.com/icaoberg/python-get-forecast/actions/workflows/main.yml/build.svg)
+![Status](https://github.com/icaoberg/python-get-forecast/actions/workflows/build.yml/badge.svg)
 ![Status](https://github.com/icaoberg/python-get-forecast/actions/workflows/pretty.yml/badge.svg)
 ![License](https://img.shields.io/github/license/icaoberg/python-get-forecast)
 
