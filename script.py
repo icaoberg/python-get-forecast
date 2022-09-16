@@ -36,7 +36,7 @@ def main():
 
     #sort repositories
     file = open("README.md", "w")
-    file.write('![Status](https://github.com/icaoberg/python-get-forecast/actions/workflows/main.yml/build.svg)\n')
+    file.write('![Status](https://github.com/icaoberg/python-get-forecast/actions/workflows/build.yml/badge.svg)\n')
     file.write('![Status](https://github.com/icaoberg/python-get-forecast/actions/workflows/pretty.yml/badge.svg)\n')
     file.write('![License](https://img.shields.io/github/license/icaoberg/python-get-forecast)\n\n')
     file.write('# Pittsburgh Nightly Forecast\n\n')
