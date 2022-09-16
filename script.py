@@ -36,7 +36,7 @@ def main():
 
     #sort repositories
     file = open("README.md", "w")
-    file.write('# Pittsburgh Nightly Forecast\n')
+    file.write('# Pittsburgh Nightly Forecast\n\n')
     file.write(df.to_markdown(tablefmt='grid'))
     file.write('\n---\nCopyright © 2020-2022 Pittsburgh Supercomputing Center. All Rights Reserved.\n\nThe [Biomedical Applications Group](https://www.psc.edu/biomedical-applications/) at the [Pittsburgh Supercomputing Center](http://www.psc.edu) in the [Mellon College of Science](https://www.cmu.edu/mcs/) at [Carnegie Mellon University](http://www.cmu.edu).')
     file.close()
