@@ -16,6 +16,7 @@
 |  9 | 2022-09-24T22:00:00-04:00 | 2022-09-25T06:00:00-04:00 | Scattered rain showers between 3am and 5am, then scattered showers and thunderstorms. Mostly cloudy, with a low around 56. South wind around 5 mph. Chance of precipitation is 50%. New rainfall amounts less than a tenth of an inch possible. |
 | 10 | 2022-09-25T22:00:00-04:00 | 2022-09-26T06:00:00-04:00 | Scattered rain showers. Mostly cloudy, with a low around 55. Southwest wind around 8 mph. Chance of precipitation is 30%. New rainfall amounts less than a tenth of an inch possible.                                                           |
 | 11 | 2022-09-26T22:00:00-04:00 | 2022-09-27T06:00:00-04:00 | Mostly clear, with a low around 49. Southwest wind around 8 mph.                                                                                                                                                                                |
+| 12 | 2022-09-28T21:00:00-04:00 | 2022-09-29T06:00:00-04:00 | Partly cloudy, with a low around 46. North wind around 5 mph.                                                                                                                                                                                   |
 
 ---
 Copyright © 2022 Pittsburgh Supercomputing Center. All Rights Reserved.
