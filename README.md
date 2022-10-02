@@ -19,6 +19,7 @@
 | 12 | 2022-09-28T21:00:00-04:00 | 2022-09-29T06:00:00-04:00 | Partly cloudy, with a low around 46. North wind around 5 mph.                                                                                                                                                                                   |
 | 13 | 2022-09-29T22:00:00-04:00 | 2022-09-30T06:00:00-04:00 | Mostly clear, with a low around 44. Northeast wind around 5 mph.                                                                                                                                                                                |
 | 14 | 2022-09-30T22:00:00-04:00 | 2022-10-01T06:00:00-04:00 | A chance of rain showers after 1am. Cloudy, with a low around 52. Northeast wind around 7 mph. Chance of precipitation is 40%. New rainfall amounts less than a tenth of an inch possible.                                                      |
+| 15 | 2022-10-01T22:00:00-04:00 | 2022-10-02T06:00:00-04:00 | Rain showers likely. Cloudy, with a low around 52. North wind around 8 mph. Chance of precipitation is 70%. New rainfall amounts between a tenth and quarter of an inch possible.                                                               |
 
 ---
 Copyright © 2022 Pittsburgh Supercomputing Center. All Rights Reserved.
