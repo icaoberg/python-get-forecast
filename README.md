@@ -22,6 +22,7 @@
 | 15 | 2022-10-01T22:00:00-04:00 | 2022-10-02T06:00:00-04:00 | Rain showers likely. Cloudy, with a low around 52. North wind around 8 mph. Chance of precipitation is 70%. New rainfall amounts between a tenth and quarter of an inch possible.                                                               |
 | 16 | 2022-10-02T21:00:00-04:00 | 2022-10-03T06:00:00-04:00 | Clear, with a low around 42. Northeast wind 2 to 7 mph.                                                                                                                                                                                         |
 | 17 | 2022-10-03T21:00:00-04:00 | 2022-10-04T06:00:00-04:00 | Mostly cloudy, with a low around 43. North wind around 2 mph.                                                                                                                                                                                   |
+| 18 | 2022-10-04T21:00:00-04:00 | 2022-10-05T06:00:00-04:00 | Mostly cloudy, with a low around 46. Northwest wind around 2 mph.                                                                                                                                                                               |
 
 ---
 Copyright © 2022 Pittsburgh Supercomputing Center. All Rights Reserved.
