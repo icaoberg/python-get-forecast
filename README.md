@@ -29,6 +29,7 @@
 | 22 | 2022-10-08T22:00:00-04:00 | 2022-10-09T06:00:00-04:00 | Clear, with a low around 38. Southwest wind around 6 mph.                                                                                                                                                                                       |
 | 23 | 2022-10-09T22:00:00-04:00 | 2022-10-10T06:00:00-04:00 | Partly cloudy, with a low around 41. South wind around 5 mph.                                                                                                                                                                                   |
 | 24 | 2022-10-10T22:00:00-04:00 | 2022-10-11T06:00:00-04:00 | Mostly clear, with a low around 44. South wind around 3 mph.                                                                                                                                                                                    |
+| 25 | 2022-10-11T22:00:00-04:00 | 2022-10-12T06:00:00-04:00 | Partly cloudy, with a low around 50. Southeast wind around 3 mph.                                                                                                                                                                               |
 
 ---
 Copyright © 2022 Pittsburgh Supercomputing Center. All Rights Reserved.
