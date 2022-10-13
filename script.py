@@ -20,13 +20,14 @@ def get_forecast( city='Pittsburgh' ):
 
     return period
 
+
 def main():
     period = get_forecast()
 
     file = 'weather.pkl'
 
     if Path(file).exists():
-        df = pd.read_pickle( file )
+        df = pd.read_pickle(file)
     else:
         df = pd.DataFrame(columns=['Start Date', 'End Date', 'Forecast'])
 
@@ -34,7 +35,7 @@ def main():
     df = df.drop_duplicates()
     df.to_pickle(file)
 
-    #sort repositories
+    # sort repositories
     file = open("README.md", "w")
     file.write('![Status](https://github.com/icaoberg/python-get-forecast/actions/workflows/build.yml/badge.svg)\n')
     file.write('![Status](https://github.com/icaoberg/python-get-forecast/actions/workflows/pretty.yml/badge.svg)\n')
@@ -43,6 +44,7 @@ def main():
     file.write(df.to_markdown(tablefmt='github'))
     file.write('\n\n---\nCopyright © 2022 Pittsburgh Supercomputing Center. All Rights Reserved.')
     file.close()
+
 
 if __name__ == "__main__":
     main()
