@@ -11,7 +11,7 @@ def get_forecast(city='Pittsburgh'):
     geolocator = Nominatim(user_agent='ModernProgramming')
     location = geolocator.geocode(city)
     URL = f'https://api.weather.gov/points/' + \
-        {location.latitude}, {location.longitude}
+    {location.latitude}, {location.longitude}
     response = requests.get(URL)
     response = requests.get(response.json()['properties']['forecast'])
     periods = response.json()['properties']['periods']
