@@ -15,8 +15,8 @@ def get_forecast( city='Pittsburgh' ):
     periods = response.json()['properties']['periods']
     
     for period in periods:
-      if period['name'] == 'Tonight':
-        break
+        if period['name'] == 'Tonight':
+            break
 
     return period
 
@@ -40,7 +40,6 @@ def main():
     file.write('![Status](https://github.com/icaoberg/python-get-forecast/actions/workflows/build.yml/badge.svg)\n')
     file.write('![Status](https://github.com/icaoberg/python-get-forecast/actions/workflows/pretty.yml/badge.svg)\n')
     file.write('# Pittsburgh Nightly Forecast\n\n')
-    
     file.write(df.to_markdown(tablefmt='github'))
     file.write('\n\n---\nCopyright © 2022 Pittsburgh Supercomputing Center. All Rights Reserved.')
     file.close()
