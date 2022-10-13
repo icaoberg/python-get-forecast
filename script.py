@@ -33,9 +33,9 @@ def main():
         df = pd.DataFrame(columns=['Start Date', 'End Date', 'Forecast'])
 
     df = df.append({'Start Date': period['startTime'],
-        'End Date': period['endTime'],
-        'Forecast': period['detailedForecast']},
-        ignore_index=True)
+    'End Date': period['endTime'],
+    'Forecast': period['detailedForecast']},
+    ignore_index=True)
     df = df.drop_duplicates()
     df.to_pickle(file)
 
