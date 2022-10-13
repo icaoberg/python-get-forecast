@@ -11,7 +11,7 @@ def get_forecast(city='Pittsburgh'):
     geolocator = Nominatim(user_agent='ModernProgramming')
     location = geolocator.geocode(city)
     URL = f'https://api.weather.gov/points/' + \
-            {location.latitude},{location.longitude}
+            {location.latitude}, {location.longitude}
     response = requests.get(URL)
     response = requests.get(response.json()['properties']['forecast'])
     periods = response.json()['properties']['periods']
@@ -32,9 +32,9 @@ def main():
     else:
         df = pd.DataFrame(columns=['Start Date', 'End Date', 'Forecast'])
 
-    df = df.append({'Start Date': period['startTime'], \
-                    'End Date': period['endTime'], \
-                    'Forecast': period['detailedForecast']}, \
+    df = df.append({'Start Date': period['startTime'],
+                    'End Date': period['endTime'],
+                    'Forecast': period['detailedForecast']},
                     ignore_index=True)
     df = df.drop_duplicates()
     df.to_pickle(file)
