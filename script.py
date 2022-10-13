@@ -3,7 +3,8 @@ from geopy.geocoders import Nominatim
 import requests
 import pandas as pd
 
-def get_forecast( city='Pittsburgh' ):
+
+def get_forecast(city='Pittsburgh'):
     '''
     '''
 
@@ -13,7 +14,6 @@ def get_forecast( city='Pittsburgh' ):
     response = requests.get(URL)
     response = requests.get(response.json()['properties']['forecast'])
     periods = response.json()['properties']['periods']
-    
     for period in periods:
         if period['name'] == 'Tonight':
             break
