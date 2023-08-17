@@ -34,6 +34,7 @@
 | 27 | 2022-10-13T18:00:00-04:00 | 2022-10-14T06:00:00-04:00 | Mostly clear, with a low around 41. Southwest wind 2 to 7 mph.                                                                                                                                                                                               |
 | 28 | 2022-10-13T18:00:00-04:00 | 2022-10-14T06:00:00-04:00 | Partly cloudy, with a low around 41. Southwest wind 3 to 8 mph. New rainfall amounts less than a tenth of an inch possible.                                                                                                                                  |
 | 29 | 2023-08-15T21:00:00-04:00 | 2023-08-16T06:00:00-04:00 | Mostly cloudy, with a low around 64. Southwest wind around 8 mph.                                                                                                                                                                                            |
+| 30 | 2023-08-16T20:00:00-04:00 | 2023-08-17T06:00:00-04:00 | Patchy fog after 1am. Mostly cloudy, with a low around 62. South wind around 3 mph.                                                                                                                                                                          |
 
 ---
 Copyright © 2022-2023 Pittsburgh Supercomputing Center. All Rights Reserved.
