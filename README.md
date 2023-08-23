@@ -39,6 +39,7 @@
 | 32 | 2023-08-19T20:00:00-04:00 | 2023-08-20T06:00:00-04:00 | Mostly clear, with a low around 57. South wind 2 to 7 mph.                                                                                                                                                                                                                                                         |
 | 33 | 2023-08-20T20:00:00-04:00 | 2023-08-21T06:00:00-04:00 | Partly cloudy, with a low around 66. Southwest wind 1 to 5 mph.                                                                                                                                                                                                                                                    |
 | 34 | 2023-08-21T20:00:00-04:00 | 2023-08-22T06:00:00-04:00 | Mostly cloudy, with a low around 63. North wind 6 to 10 mph.                                                                                                                                                                                                                                                       |
+| 35 | 2023-08-22T21:00:00-04:00 | 2023-08-23T06:00:00-04:00 | Mostly clear, with a low around 58. Northeast wind around 6 mph.                                                                                                                                                                                                                                                   |
 
 ---
 Copyright © 2022-2023 Pittsburgh Supercomputing Center. All Rights Reserved.
