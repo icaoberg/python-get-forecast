@@ -43,6 +43,7 @@
 | 36 | 2023-08-23T20:00:00-04:00 | 2023-08-24T06:00:00-04:00 | Showers and thunderstorms. Cloudy, with a low around 68. South wind 6 to 10 mph. Chance of precipitation is 80%. New rainfall amounts between 1 and 2 inches possible.                                                                                                                                             |
 | 37 | 2023-08-24T20:00:00-04:00 | 2023-08-25T06:00:00-04:00 | A chance of showers and thunderstorms between 1am and 3am, then showers and thunderstorms. Some of the storms could be severe. Mostly cloudy, with a low around 71. South wind 6 to 10 mph. Chance of precipitation is 90%. New rainfall amounts between a half and three quarters of an inch possible.            |
 | 38 | 2023-08-25T20:00:00-04:00 | 2023-08-26T06:00:00-04:00 | Mostly cloudy, with a low around 67. Northwest wind 3 to 10 mph.                                                                                                                                                                                                                                                   |
+| 39 | 2023-08-26T20:00:00-04:00 | 2023-08-27T06:00:00-04:00 | Partly cloudy, with a low around 63. North wind 6 to 10 mph.                                                                                                                                                                                                                                                       |
 
 ---
 Copyright © 2022-2023 Pittsburgh Supercomputing Center. All Rights Reserved.
