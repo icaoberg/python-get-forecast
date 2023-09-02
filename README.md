@@ -49,6 +49,7 @@
 | 42 | 2023-08-29T20:00:00-04:00 | 2023-08-30T06:00:00-04:00 | A slight chance of rain showers before 9pm. Partly cloudy, with a low around 61. West wind 3 to 7 mph. Chance of precipitation is 20%.                                                                                                                                                                             |
 | 43 | 2023-08-30T20:00:00-04:00 | 2023-08-31T06:00:00-04:00 | Mostly cloudy, with a low around 55. North wind around 10 mph.                                                                                                                                                                                                                                                     |
 | 44 | 2023-08-31T20:00:00-04:00 | 2023-09-01T06:00:00-04:00 | Clear, with a low around 52. Northeast wind around 8 mph.                                                                                                                                                                                                                                                          |
+| 45 | 2023-09-01T20:00:00-04:00 | 2023-09-02T06:00:00-04:00 | Mostly clear, with a low around 57. Southeast wind around 5 mph.                                                                                                                                                                                                                                                   |
 
 ---
 Copyright © 2022-2023 Pittsburgh Supercomputing Center. All Rights Reserved.
