@@ -52,6 +52,7 @@
 | 45 | 2023-09-01T20:00:00-04:00 | 2023-09-02T06:00:00-04:00 | Mostly clear, with a low around 57. Southeast wind around 5 mph.                                                                                                                                                                                                                                                   |
 | 46 | 2023-09-02T21:00:00-04:00 | 2023-09-03T06:00:00-04:00 | Partly cloudy, with a low around 67. Southwest wind around 6 mph.                                                                                                                                                                                                                                                  |
 | 47 | 2023-09-03T20:00:00-04:00 | 2023-09-04T06:00:00-04:00 | Partly cloudy, with a low around 69. Southwest wind around 7 mph.                                                                                                                                                                                                                                                  |
+| 48 | 2023-09-04T20:00:00-04:00 | 2023-09-05T06:00:00-04:00 | Patchy fog after 4am. Mostly clear, with a low around 70. Southwest wind 1 to 6 mph.                                                                                                                                                                                                                               |
 
 ---
 Copyright © 2022-2023 Pittsburgh Supercomputing Center. All Rights Reserved.
