@@ -55,6 +55,7 @@
 | 48 | 2023-09-05T20:00:00-04:00 | 2023-09-06T06:00:00-04:00 | Patchy fog after 5am. Mostly clear, with a low around 69. Southwest wind around 3 mph.                                                                                                                                                                                                                             |
 | 49 | 2023-09-06T21:00:00-04:00 | 2023-09-07T06:00:00-04:00 | A chance of showers and thunderstorms between 3am and 5am, then a chance of showers and thunderstorms. Mostly cloudy, with a low around 70. South wind around 7 mph. Chance of precipitation is 40%. New rainfall amounts between a tenth and quarter of an inch possible.                                         |
 | 50 | 2023-09-08T20:00:00-04:00 | 2023-09-09T06:00:00-04:00 | A slight chance of rain showers after 4am. Mostly cloudy, with a low around 63. North wind around 5 mph. Chance of precipitation is 20%. New rainfall amounts less than a tenth of an inch possible.                                                                                                               |
+| 51 | 2023-09-09T20:00:00-04:00 | 2023-09-10T06:00:00-04:00 | Isolated rain showers between 11pm and 2am, then patchy fog between 2am and 4am, then areas of fog and a slight chance of rain showers. Mostly cloudy, with a low around 64. North wind 2 to 6 mph. Chance of precipitation is 20%. New rainfall amounts less than a tenth of an inch possible.                    |
 
 ---
 Copyright © 2022-2023 Pittsburgh Supercomputing Center. All Rights Reserved.
