@@ -60,6 +60,7 @@
 | 53 | 2023-09-11T20:00:00-04:00 | 2023-09-12T06:00:00-04:00 | Partly cloudy, with a low around 60. South wind around 3 mph.                                                                                                                                                                                                                                                      |
 | 54 | 2023-09-15T20:00:00-04:00 | 2023-09-16T06:00:00-04:00 | Clear, with a low around 48. North wind around 3 mph.                                                                                                                                                                                                                                                              |
 | 55 | 2023-09-16T21:00:00-04:00 | 2023-09-17T06:00:00-04:00 | Mostly cloudy, with a low around 53. Northeast wind around 3 mph.                                                                                                                                                                                                                                                  |
+| 56 | 2023-09-17T20:00:00-04:00 | 2023-09-18T06:00:00-04:00 | A slight chance of rain showers before midnight. Mostly cloudy, with a low around 53. West wind around 3 mph. Chance of precipitation is 20%.                                                                                                                                                                      |
 
 ---
 Copyright © 2022-2023 Pittsburgh Supercomputing Center. All Rights Reserved.
