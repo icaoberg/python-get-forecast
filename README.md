@@ -68,6 +68,7 @@
 | 61 | 2023-09-23T20:00:00-04:00 | 2023-09-24T06:00:00-04:00 | Rain likely before 9pm, then areas of drizzle and a chance of rain. Cloudy, with a low around 56. Northeast wind around 14 mph. Chance of precipitation is 70%. New rainfall amounts less than a tenth of an inch possible.                                                                                        |
 | 62 | 2023-09-27T21:00:00-04:00 | 2023-09-28T06:00:00-04:00 | Mostly cloudy, with a low around 55. East wind 6 to 9 mph.                                                                                                                                                                                                                                                         |
 | 63 | 2023-09-29T20:00:00-04:00 | 2023-09-30T06:00:00-04:00 | Areas of fog after 3am. Mostly clear, with a low around 55. Northeast wind 1 to 5 mph.                                                                                                                                                                                                                             |
+| 64 | 2023-09-30T20:00:00-04:00 | 2023-10-01T06:00:00-04:00 | Areas of fog after 1am. Mostly clear, with a low around 55. North wind around 3 mph.                                                                                                                                                                                                                               |
 
 ---
 Copyright © 2022-2023 Pittsburgh Supercomputing Center. All Rights Reserved.
