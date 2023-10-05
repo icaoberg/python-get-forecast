@@ -71,6 +71,7 @@
 | 64 | 2023-09-30T20:00:00-04:00 | 2023-10-01T06:00:00-04:00 | Areas of fog after 1am. Mostly clear, with a low around 55. North wind around 3 mph.                                                                                                                                                                                                                               |
 | 65 | 2023-10-02T20:00:00-04:00 | 2023-10-03T06:00:00-04:00 | Mostly clear, with a low around 59. East wind around 2 mph.                                                                                                                                                                                                                                                        |
 | 66 | 2023-10-03T20:00:00-04:00 | 2023-10-04T06:00:00-04:00 | Mostly clear, with a low around 58. East wind around 3 mph.                                                                                                                                                                                                                                                        |
+| 67 | 2023-10-04T20:00:00-04:00 | 2023-10-05T06:00:00-04:00 | Partly cloudy, with a low around 60. Southeast wind around 6 mph.                                                                                                                                                                                                                                                  |
 
 ---
 Copyright © 2022-2023 Pittsburgh Supercomputing Center. All Rights Reserved.
