@@ -72,6 +72,7 @@
 | 65 | 2023-10-02T20:00:00-04:00 | 2023-10-03T06:00:00-04:00 | Mostly clear, with a low around 59. East wind around 2 mph.                                                                                                                                                                                                                                                        |
 | 66 | 2023-10-03T20:00:00-04:00 | 2023-10-04T06:00:00-04:00 | Mostly clear, with a low around 58. East wind around 3 mph.                                                                                                                                                                                                                                                        |
 | 67 | 2023-10-04T20:00:00-04:00 | 2023-10-05T06:00:00-04:00 | Partly cloudy, with a low around 60. Southeast wind around 6 mph.                                                                                                                                                                                                                                                  |
+| 68 | 2023-10-05T20:00:00-04:00 | 2023-10-06T06:00:00-04:00 | Rain after 11pm. Cloudy, with a low around 62. South wind 6 to 12 mph. Chance of precipitation is 80%. New rainfall amounts less than a tenth of an inch possible.                                                                                                                                                 |
 
 ---
 Copyright © 2022-2023 Pittsburgh Supercomputing Center. All Rights Reserved.
