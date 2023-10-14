@@ -78,6 +78,7 @@
 | 71 | 2023-10-08T20:00:00-04:00 | 2023-10-09T06:00:00-04:00 | Partly cloudy, with a low around 42. Southwest wind 2 to 8 mph.                                                                                                                                                                                                                                                    |
 | 72 | 2023-10-11T20:00:00-04:00 | 2023-10-12T06:00:00-04:00 | Partly cloudy, with a low around 50. South wind 2 to 6 mph.                                                                                                                                                                                                                                                        |
 | 73 | 2023-10-12T21:00:00-04:00 | 2023-10-13T06:00:00-04:00 | Partly cloudy, with a low around 48. Northeast wind around 7 mph.                                                                                                                                                                                                                                                  |
+| 74 | 2023-10-13T20:00:00-04:00 | 2023-10-14T06:00:00-04:00 | Rain after 1am. Mostly cloudy, with a low around 52. East wind around 9 mph. Chance of precipitation is 80%. New rainfall amounts less than a tenth of an inch possible.                                                                                                                                           |
 
 ---
 Copyright © 2022-2023 Pittsburgh Supercomputing Center. All Rights Reserved.
