@@ -85,6 +85,7 @@
 | 78 | 2023-10-19T20:00:00-04:00 | 2023-10-20T06:00:00-04:00 | A chance of rain showers before 4am, then rain. Cloudy, with a low around 54. South wind 10 to 16 mph. Chance of precipitation is 80%. New rainfall amounts between a tenth and quarter of an inch possible.                                                                                                       |
 | 79 | 2023-10-21T21:00:00-04:00 | 2023-10-22T06:00:00-04:00 | A chance of rain showers. Cloudy, with a low around 44. Northwest wind 6 to 12 mph. Chance of precipitation is 50%. New rainfall amounts between a tenth and quarter of an inch possible.                                                                                                                          |
 | 80 | 2023-10-22T20:00:00-04:00 | 2023-10-23T06:00:00-04:00 | Mostly cloudy, with a low around 36. West wind 3 to 8 mph.                                                                                                                                                                                                                                                         |
+| 81 | 2023-10-23T20:00:00-04:00 | 2023-10-24T06:00:00-04:00 | Partly cloudy, with a low around 41. Southeast wind around 5 mph.                                                                                                                                                                                                                                                  |
 
 ---
 Copyright © 2022-2023 Pittsburgh Supercomputing Center. All Rights Reserved.
