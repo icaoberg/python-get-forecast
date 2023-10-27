@@ -87,6 +87,7 @@
 | 80 | 2023-10-22T20:00:00-04:00 | 2023-10-23T06:00:00-04:00 | Mostly cloudy, with a low around 36. West wind 3 to 8 mph.                                                                                                                                                                                                                                                         |
 | 81 | 2023-10-24T21:00:00-04:00 | 2023-10-25T06:00:00-04:00 | Mostly cloudy, with a low around 53. South wind around 5 mph.                                                                                                                                                                                                                                                      |
 | 82 | 2023-10-25T20:00:00-04:00 | 2023-10-26T06:00:00-04:00 | Mostly cloudy, with a low around 53. South wind 3 to 8 mph.                                                                                                                                                                                                                                                        |
+| 83 | 2023-10-26T20:00:00-04:00 | 2023-10-27T06:00:00-04:00 | Mostly cloudy, with a low around 59. South wind around 5 mph.                                                                                                                                                                                                                                                      |
 
 ---
 Copyright © 2022-2023 Pittsburgh Supercomputing Center. All Rights Reserved.
