@@ -91,6 +91,7 @@
 | 84 | 2023-10-27T20:00:00-04:00 | 2023-10-28T06:00:00-04:00 | Patchy drizzle before 2am. Cloudy, with a low around 62. Southwest wind around 9 mph. New rainfall amounts less than a tenth of an inch possible.                                                                                                                                                                  |
 | 85 | 2023-10-28T20:00:00-04:00 | 2023-10-29T06:00:00-04:00 | Rain. Cloudy, with a low around 54. Northeast wind around 7 mph. Chance of precipitation is 90%. New rainfall amounts between a tenth and quarter of an inch possible.                                                                                                                                             |
 | 86 | 2023-10-29T20:00:00-04:00 | 2023-10-30T06:00:00-04:00 | Patchy fog before 9pm, then patchy fog and a slight chance of rain between 9pm and 10pm, then rain and patchy fog. Cloudy, with a low around 47. Southwest wind around 3 mph. Chance of precipitation is 100%. New rainfall amounts between a quarter and half of an inch possible.                                |
+| 87 | 2023-10-30T20:00:00-04:00 | 2023-10-31T06:00:00-04:00 | Mostly cloudy, with a low around 35. Northwest wind 6 to 13 mph. New rainfall amounts less than a tenth of an inch possible.                                                                                                                                                                                       |
 
 ---
 Copyright © 2022-2023 Pittsburgh Supercomputing Center. All Rights Reserved.
