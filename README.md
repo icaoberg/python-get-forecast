@@ -95,6 +95,7 @@
 | 88 | 2023-10-31T20:00:00-04:00 | 2023-11-01T06:00:00-04:00 | Isolated rain showers before 9pm, then a chance of rain and snow showers between 9pm and 3am. Cloudy, with a low around 32. West wind 3 to 10 mph. Chance of precipitation is 60%. New snow accumulation of less than half an inch possible.                                                                       |
 | 89 | 2023-11-01T20:00:00-04:00 | 2023-11-02T06:00:00-04:00 | Mostly clear, with a low around 26. West wind 3 to 7 mph.                                                                                                                                                                                                                                                          |
 | 90 | 2023-11-02T20:00:00-04:00 | 2023-11-03T06:00:00-04:00 | Mostly clear, with a low around 33. South wind around 5 mph.                                                                                                                                                                                                                                                       |
+| 91 | 2023-11-03T20:00:00-04:00 | 2023-11-04T06:00:00-04:00 | Mostly cloudy, with a low around 41. South wind 3 to 8 mph.                                                                                                                                                                                                                                                        |
 
 ---
 Copyright © 2022-2023 Pittsburgh Supercomputing Center. All Rights Reserved.
