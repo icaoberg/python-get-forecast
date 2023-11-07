@@ -98,6 +98,7 @@
 | 91 | 2023-11-03T20:00:00-04:00 | 2023-11-04T06:00:00-04:00 | Mostly cloudy, with a low around 41. South wind 3 to 8 mph.                                                                                                                                                                                                                                                        |
 | 92 | 2023-11-04T20:00:00-04:00 | 2023-11-05T06:00:00-05:00 | Mostly cloudy, with a low around 43. South wind around 5 mph.                                                                                                                                                                                                                                                      |
 | 93 | 2023-11-05T20:00:00-05:00 | 2023-11-06T06:00:00-05:00 | Partly cloudy, with a low around 38. Northeast wind around 3 mph.                                                                                                                                                                                                                                                  |
+| 94 | 2023-11-06T19:00:00-05:00 | 2023-11-07T06:00:00-05:00 | Isolated rain showers between 11pm and 4am. Mostly cloudy, with a low around 57. Southwest wind 13 to 18 mph, with gusts as high as 30 mph. Chance of precipitation is 20%.                                                                                                                                        |
 
 ---
 Copyright © 2022-2023 Pittsburgh Supercomputing Center. All Rights Reserved.
