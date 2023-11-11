@@ -102,6 +102,7 @@
 | 95 | 2023-11-07T19:00:00-05:00 | 2023-11-08T06:00:00-05:00 | Mostly clear, with a low around 38. North wind 1 to 8 mph.                                                                                                                                                                                                                                                         |
 | 96 | 2023-11-08T19:00:00-05:00 | 2023-11-09T06:00:00-05:00 | A chance of rain after 2am. Partly cloudy. Low around 53, with temperatures rising to around 62 overnight. South wind 7 to 13 mph. Chance of precipitation is 40%. New rainfall amounts less than a tenth of an inch possible.                                                                                     |
 | 97 | 2023-11-09T20:00:00-05:00 | 2023-11-10T06:00:00-05:00 | Mostly cloudy, with a low around 41. West wind around 6 mph.                                                                                                                                                                                                                                                       |
+| 98 | 2023-11-10T21:00:00-05:00 | 2023-11-11T06:00:00-05:00 | Partly cloudy, with a low around 36. West wind 2 to 6 mph.                                                                                                                                                                                                                                                         |
 
 ---
 Copyright © 2022-2023 Pittsburgh Supercomputing Center. All Rights Reserved.
