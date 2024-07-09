@@ -74,10 +74,10 @@ def main():
         "![Status](https://github.com/icaoberg/"
         + "python-get-forecast/actions/workflows/build.yml/badge.svg)\n"
     )
-    file.write(
-        "![Status](https://github.com/icaoberg/"
-        + "python-get-forecast/actions/workflows/pretty.yml/badge.svg)\n"
-    )
+    #file.write(
+    #    "![Status](https://github.com/icaoberg/"
+    #    + "python-get-forecast/actions/workflows/pretty.yml/badge.svg)\n"
+    #)
     file.write("# Pittsburgh Nightly Forecast\n\n")
     file.write(df.to_markdown(tablefmt="github"))
     file.write(
