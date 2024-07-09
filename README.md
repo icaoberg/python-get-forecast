@@ -1,5 +1,4 @@
 ![Status](https://github.com/icaoberg/python-get-forecast/actions/workflows/build.yml/badge.svg)
-![Status](https://github.com/icaoberg/python-get-forecast/actions/workflows/pretty.yml/badge.svg)
 # Pittsburgh Nightly Forecast
 
 |     | Start Date                | End Date                  | Forecast                                                                                                                                                                                                                                                                                                                                                                                                                  |
@@ -327,6 +326,7 @@
 | 320 | 2024-07-06T20:00:00-04:00 | 2024-07-07T06:00:00-04:00 | Mostly clear, with a low around 65. West wind 1 to 7 mph.                                                                                                                                                                                                                                                                                                                                                                 |
 | 321 | 2024-07-07T21:00:00-04:00 | 2024-07-08T06:00:00-04:00 | Mostly clear, with a low around 66. North wind around 2 mph.                                                                                                                                                                                                                                                                                                                                                              |
 | 322 | 2024-07-08T21:00:00-04:00 | 2024-07-09T06:00:00-04:00 | Mostly cloudy, with a low around 71. Southwest wind around 2 mph.                                                                                                                                                                                                                                                                                                                                                         |
+| 323 | 2024-07-08T22:00:00-04:00 | 2024-07-09T06:00:00-04:00 | Mostly cloudy, with a low around 71. Southwest wind around 1 mph.                                                                                                                                                                                                                                                                                                                                                         |
 
 ---
 Copyright © 2022-2023 Pittsburgh Supercomputing Center. All Rights Reserved.
