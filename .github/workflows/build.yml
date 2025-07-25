@@ -1,38 +1,57 @@
+# GitHub Actions Workflow: Data build
+# This workflow installs Python dependencies, runs a script (e.g., to update data),
+# and commits the updated README.md and weather.pkl back to the repository.
+
 name: Data build
 
+# ─────────────────────────────
+# Trigger the workflow on:
+# - any push to any branch
+# - any pull request to any branch
+# - a scheduled run every day at 00:00 UTC
+# ─────────────────────────────
 on:
   push:
+    branches: ['**']  # Matches all branches
   pull_request:
+    branches: ['**']  # Matches all branches
   schedule:
-    - cron: "0 0 * * *" # Runs at 00:00 UTC every day
+    - cron: "0 0 * * *"  # Daily at midnight UTC
 
 jobs:
   update-resources:
     name: Update resources
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-latest  # Use the latest Ubuntu image for the job environment
+
     steps:
+      # Step 1: Checkout the repository code
       - name: Checkout repository
         uses: actions/checkout@v4
 
+      # Step 2: Set up Python environment with caching
       - name: Setup Python
         uses: actions/setup-python@v5
         with:
           python-version: '3.10'
-          cache: 'pip'
+          cache: 'pip'  # Cache installed pip packages to speed up subsequent runs
 
+      # Step 3: Install project dependencies from requirements.txt
       - name: Install dependencies
         run: pip install -r requirements.txt
 
+      # Step 4: Run the data-building script (e.g., creates/updates files like README.md or weather.pkl)
       - name: Run data build script
         run: python script.py
 
+      # Step 5: Commit updated README.md if it changed
       - name: Commit updated README.md
         uses: test-room-7/action-update-file@v1
         with:
-          file-path: README.md
-          commit-msg: "Update README.md"
-          github-token: ${{ secrets.GITHUB_TOKEN }}
+          file-path: README.md               # File to commit
+          commit-msg: "Update README.md"     # Commit message
+          github-token: ${{ secrets.GITHUB_TOKEN }}  # GitHub token for authentication
 
+      # Step 6: Commit updated weather.pkl if it changed
       - name: Commit updated weather.pkl
         uses: test-room-7/action-update-file@v1
         with:
