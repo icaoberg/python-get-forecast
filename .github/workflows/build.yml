@@ -1,57 +1,61 @@
 # GitHub Actions Workflow: Data build
-# This workflow installs Python dependencies, runs a script (e.g., to update data),
-# and commits the updated README.md and weather.pkl back to the repository.
+# This workflow installs dependencies, runs a data-generation script,
+# and automatically commits updates to README.md and weather.pkl.
+# It runs on all branches except 'master' for push and pull request events,
+# as well as on a daily schedule and manual trigger.
 
 name: Data build
 
-# ─────────────────────────────
-# Trigger the workflow on:
-# - any push to any branch
-# - any pull request to any branch
-# - a scheduled run every day at 00:00 UTC
-# ─────────────────────────────
 on:
+  # ① Manual run via GitHub UI (under Actions tab → "Run workflow")
+  workflow_dispatch:
+
+  # ② Trigger on push to any branch except 'master'
   push:
-    branches: ['**']  # Matches all branches
+    branches-ignore: ['master']
+
+  # ③ Trigger on pull requests from/to any branch except 'master'
   pull_request:
-    branches: ['**']  # Matches all branches
+    branches-ignore: ['master']
+
+  # ④ Scheduled run at 00:00 UTC every day
   schedule:
-    - cron: "0 0 * * *"  # Daily at midnight UTC
+    - cron: "0 0 * * *"
 
 jobs:
   update-resources:
     name: Update resources
-    runs-on: ubuntu-latest  # Use the latest Ubuntu image for the job environment
+    runs-on: ubuntu-latest  # Use the latest stable Ubuntu runner
 
     steps:
-      # Step 1: Checkout the repository code
+      # Step 1: Checkout the repository
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      # Step 2: Set up Python environment with caching
+      # Step 2: Set up Python 3.10 and enable pip dependency caching
       - name: Setup Python
         uses: actions/setup-python@v5
         with:
           python-version: '3.10'
-          cache: 'pip'  # Cache installed pip packages to speed up subsequent runs
+          cache: 'pip'  # Automatically caches installed pip packages between runs
 
-      # Step 3: Install project dependencies from requirements.txt
+      # Step 3: Install dependencies listed in requirements.txt
       - name: Install dependencies
         run: pip install -r requirements.txt
 
-      # Step 4: Run the data-building script (e.g., creates/updates files like README.md or weather.pkl)
+      # Step 4: Run your custom script to update data/output
       - name: Run data build script
         run: python script.py
 
-      # Step 5: Commit updated README.md if it changed
+      # Step 5: Automatically commit updated README.md (if changed)
       - name: Commit updated README.md
         uses: test-room-7/action-update-file@v1
         with:
-          file-path: README.md               # File to commit
-          commit-msg: "Update README.md"     # Commit message
-          github-token: ${{ secrets.GITHUB_TOKEN }}  # GitHub token for authentication
+          file-path: README.md
+          commit-msg: "Update README.md"
+          github-token: ${{ secrets.GITHUB_TOKEN }}
 
-      # Step 6: Commit updated weather.pkl if it changed
+      # Step 6: Automatically commit updated weather.pkl (if changed)
       - name: Commit updated weather.pkl
         uses: test-room-7/action-update-file@v1
         with:
