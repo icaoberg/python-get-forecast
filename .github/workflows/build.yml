@@ -1,34 +1,41 @@
 name: Data build
+
 on:
   push:
   pull_request:
   schedule:
-    - cron: "0 0 * * *" #runs at 00:00 UTC everyday
-jobs:
-    resources:
-        name: Update resources
-        runs-on: ubuntu-latest
-        steps:
-            - uses: actions/checkout@v2
-            - uses: actions/setup-node@v1
-            - uses: actions/setup-python@v2
-              with:
-                python-version: '3.10'
-                cache: 'pip' # caching pip dependencies
-            - name: Installing dependencies
-              run: pip install -r requirements.txt
-            - name: Updating README.md
-              run: python script.py
+    - cron: "0 0 * * *" # Runs at 00:00 UTC every day
 
-            - name: Update README.md
-              uses: test-room-7/action-update-file@v1
-              with:
-                  file-path: README.md
-                  commit-msg: Update README.md
-                  github-token: ${{ secrets.GITHUB_TOKEN }}
-            - name: Save pickle file
-              uses: test-room-7/action-update-file@v1
-              with:
-                  file-path: weather.pkl
-                  commit-msg: Update weather.pkl
-                  github-token: ${{ secrets.GITHUB_TOKEN }}
+jobs:
+  update-resources:
+    name: Update resources
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.10'
+          cache: 'pip'
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Run data build script
+        run: python script.py
+
+      - name: Commit updated README.md
+        uses: test-room-7/action-update-file@v1
+        with:
+          file-path: README.md
+          commit-msg: "Update README.md"
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Commit updated weather.pkl
+        uses: test-room-7/action-update-file@v1
+        with:
+          file-path: weather.pkl
+          commit-msg: "Update weather.pkl"
+          github-token: ${{ secrets.GITHUB_TOKEN }}
