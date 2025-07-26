@@ -1,34 +1,64 @@
-name: Data build
-on:
-  push:
-  pull_request:
-  schedule:
-    - cron: "0 0 * * *" #runs at 00:00 UTC everyday
-jobs:
-    resources:
-        name: Update resources
-        runs-on: ubuntu-latest
-        steps:
-            - uses: actions/checkout@v2
-            - uses: actions/setup-node@v1
-            - uses: actions/setup-python@v2
-              with:
-                python-version: '3.10'
-                cache: 'pip' # caching pip dependencies
-            - name: Installing dependencies
-              run: pip install -r requirements.txt
-            - name: Updating README.md
-              run: python script.py
+# GitHub Actions Workflow: Data build
+# This workflow installs dependencies, runs a data-generation script,
+# and automatically commits updates to README.md and weather.pkl.
+# It runs on all branches except 'master' for push and pull request events,
+# as well as on a daily schedule and manual trigger.
 
-            - name: Update README.md
-              uses: test-room-7/action-update-file@v1
-              with:
-                  file-path: README.md
-                  commit-msg: Update README.md
-                  github-token: ${{ secrets.GITHUB_TOKEN }}
-            - name: Save pickle file
-              uses: test-room-7/action-update-file@v1
-              with:
-                  file-path: weather.pkl
-                  commit-msg: Update weather.pkl
-                  github-token: ${{ secrets.GITHUB_TOKEN }}
+name: Data build
+
+on:
+  # ① Manual run via GitHub UI (under Actions tab → "Run workflow")
+  workflow_dispatch:
+
+  # ② Trigger on push to any branch except 'master'
+  push:
+    branches-ignore: ['master']
+
+  # ③ Trigger on pull requests from/to any branch except 'master'
+  pull_request:
+    branches-ignore: ['master']
+
+  # ④ Scheduled run at 00:00 UTC every day
+  schedule:
+    - cron: "0 0 * * *"
+
+jobs:
+  update-resources:
+    name: Update resources
+    runs-on: ubuntu-latest  # Use the latest stable Ubuntu runner
+
+    steps:
+      # Step 1: Checkout the repository
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      # Step 2: Set up Python 3.10 and enable pip dependency caching
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.10'
+          cache: 'pip'  # Automatically caches installed pip packages between runs
+
+      # Step 3: Install dependencies listed in requirements.txt
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      # Step 4: Run your custom script to update data/output
+      - name: Run data build script
+        run: python script.py
+
+      # Step 5: Automatically commit updated README.md (if changed)
+      - name: Commit updated README.md
+        uses: test-room-7/action-update-file@v1
+        with:
+          file-path: README.md
+          commit-msg: "Update README.md"
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+
+      # Step 6: Automatically commit updated weather.pkl (if changed)
+      - name: Commit updated weather.pkl
+        uses: test-room-7/action-update-file@v1
+        with:
+          file-path: weather.pkl
+          commit-msg: "Update weather.pkl"
+          github-token: ${{ secrets.GITHUB_TOKEN }}
