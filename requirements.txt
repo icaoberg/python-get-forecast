@@ -1,5 +1,0 @@
-pandas
-pyarrow
-geopy
-requests
-pycodestyle
