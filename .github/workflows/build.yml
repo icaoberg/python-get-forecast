@@ -1,8 +1,7 @@
 # GitHub Actions Workflow: Data build
 # This workflow installs dependencies, runs a data-generation script,
 # and automatically commits updates to README.md and weather.pkl.
-# It runs on all branches except 'master' for push and pull request events,
-# as well as on a daily schedule and manual trigger.
+# It runs on a daily schedule and can also be triggered manually.
 
 name: Data build
 
@@ -10,13 +9,7 @@ on:
   # ① Manual run via GitHub UI (under Actions tab → "Run workflow")
   workflow_dispatch:
 
-  # ② Trigger on push to any branch
-  push:
-
-  # ③ Trigger on pull requests to any branch
-  pull_request:
-
-  # ④ Scheduled run at 00:00 UTC every day
+  # ② Scheduled run at 00:00 UTC every day
   schedule:
     - cron: "0 0 * * *"
 
