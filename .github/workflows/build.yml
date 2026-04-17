@@ -10,13 +10,11 @@ on:
   # ① Manual run via GitHub UI (under Actions tab → "Run workflow")
   workflow_dispatch:
 
-  # ② Trigger on push to any branch except 'master'
+  # ② Trigger on push to any branch
   push:
-    branches-ignore: ['master']
 
-  # ③ Trigger on pull requests from/to any branch except 'master'
+  # ③ Trigger on pull requests to any branch
   pull_request:
-    branches-ignore: ['master']
 
   # ④ Scheduled run at 00:00 UTC every day
   schedule:
@@ -55,10 +53,10 @@ jobs:
           commit-msg: "Update README.md"
           github-token: ${{ secrets.GITHUB_TOKEN }}
 
-      # Step 6: Automatically commit updated weather.pkl (if changed)
-      - name: Commit updated weather.pkl
+      # Step 6: Automatically commit updated weather.parquet (if changed)
+      - name: Commit updated weather.parquet
         uses: test-room-7/action-update-file@v1
         with:
-          file-path: weather.pkl
-          commit-msg: "Update weather.pkl"
+          file-path: weather.parquet
+          commit-msg: "Update weather.parquet"
           github-token: ${{ secrets.GITHUB_TOKEN }}

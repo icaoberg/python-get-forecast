@@ -856,4 +856,4 @@
 | 850 | 2026-04-15T21:00:00-04:00 | 2026-04-16T06:00:00-04:00 | A chance of rain showers between 11pm and 3am. Mostly cloudy, with a low around 66. Southwest wind around 6 mph. Chance of precipitation is 30%. New rainfall amounts less than a tenth of an inch possible.                                                                                                                                                                                                                                                                                                                                                                             |
 
 ---
-Copyright © 2022-2025 Pittsburgh Supercomputing Center. All Rights Reserved.
+Copyright © 2022-2026 Pittsburgh Supercomputing Center. All Rights Reserved.

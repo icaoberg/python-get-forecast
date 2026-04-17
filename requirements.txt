@@ -1,5 +1,5 @@
 pandas
+pyarrow
 geopy
 requests
-tabulate
 pycodestyle

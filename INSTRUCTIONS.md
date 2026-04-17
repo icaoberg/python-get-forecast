@@ -26,6 +26,6 @@ in `script.py`.
    - If the badges indicate passing, submit your repository link on Canvas.
 
 ---
-Copyright © 2022-2025 Pittsburgh Supercomputing Center. All Rights Reserved.
+Copyright © 2022-2026 Pittsburgh Supercomputing Center. All Rights Reserved.
 
 The [Biomedical Applications Group](https://www.psc.edu/biomedical-applications/) at the [Pittsburgh Supercomputing Center](http://www.psc.edu) in the [Mellon College of Science](https://www.cmu.edu/mcs/) at [Carnegie Mellon University](http://www.cmu.edu).
