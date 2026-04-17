@@ -1,0 +1,38 @@
+name: Release
+
+on:
+  workflow_run:
+    workflows: ["Data build"]
+    types: [completed]
+    branches: ['master']
+
+jobs:
+  release:
+    name: Create release
+    runs-on: ubuntu-latest
+    if: ${{ github.event.workflow_run.conclusion == 'success' }}
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Delete existing releases and tags
+        run: |
+          gh release list --json tagName --jq '.[].tagName' | while read -r tag; do
+            gh release delete "$tag" --yes --cleanup-tag
+          done
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Get release date
+        id: date
+        run: echo "tag=$(date +'%Y%m%d')" >> "$GITHUB_OUTPUT"
+
+      - name: Create release
+        uses: softprops/action-gh-release@v2
+        with:
+          tag_name: ${{ steps.date.outputs.tag }}
+          name: ${{ steps.date.outputs.tag }}
+          generate_release_notes: true
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
