@@ -17,6 +17,8 @@ jobs:
   update-resources:
     name: Update resources
     runs-on: ubuntu-latest  # Use the latest stable Ubuntu runner
+    env:
+      FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
 
     steps:
       # Step 1: Checkout the repository
