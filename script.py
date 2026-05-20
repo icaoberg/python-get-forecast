@@ -1,4 +1,5 @@
 import sys
+import time
 from pathlib import Path
 from geopy.geocoders import Nominatim
 import requests
@@ -8,6 +9,16 @@ CITY = "Pittsburgh"
 DATA_FILE = "weather.parquet"
 GITHUB_USER = "icaoberg"
 REPO_NAME = "python-get-forecast"
+
+
+def _get_with_retry(url, timeout=30, retries=3, backoff=5):
+    for attempt in range(retries):
+        try:
+            return requests.get(url, timeout=timeout)
+        except requests.exceptions.Timeout:
+            if attempt == retries - 1:
+                raise
+            time.sleep(backoff * (attempt + 1))
 
 
 def get_forecast(city=CITY):
@@ -34,11 +45,11 @@ def get_forecast(city=CITY):
         f"https://api.weather.gov/points/"
         f"{location.latitude},{location.longitude}"
     )
-    response = requests.get(url, timeout=10)
+    response = _get_with_retry(url)
     response.raise_for_status()
 
     forecast_url = response.json()["properties"]["forecast"]
-    response = requests.get(forecast_url, timeout=10)
+    response = _get_with_retry(forecast_url)
     response.raise_for_status()
 
     periods = response.json()["properties"]["periods"]
