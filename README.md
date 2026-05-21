@@ -4,6 +4,7 @@
 |    | Start Date                | End Date                  | Forecast                                                                                                                                                                                                                                                               |
 |----|---------------------------|---------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 |  0 | 2026-05-19T20:00:00-04:00 | 2026-05-20T06:00:00-04:00 | A chance of showers and thunderstorms before 2am, then a chance of showers and thunderstorms between 2am and 3am, then a slight chance of showers and thunderstorms. Partly cloudy, with a low around 69. Southwest wind around 8 mph. Chance of precipitation is 30%. |
+|  1 | 2026-05-20T19:00:00-04:00 | 2026-05-21T06:00:00-04:00 | A chance of showers and thunderstorms. Cloudy, with a low around 51. North wind 6 to 12 mph. Chance of precipitation is 70%. New rainfall amounts less than a tenth of an inch possible.                                                                               |
 
 ---
 Copyright © 2022-2026 Pittsburgh Supercomputing Center. All Rights Reserved.
